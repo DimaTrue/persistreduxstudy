@@ -3,6 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import { PersistGate } from 'redux-persist/es/integration/react';
 import { Provider } from 'react-redux';
 
+import ContactsScreen from './screens/Contacts';
 import Counter from './screens/Counter';
 import { store, persistor } from './store/store';
 
@@ -21,7 +22,7 @@ const App = () => {
         loading={<Loading />}
         persistor={persistor}
         onBeforeLift={onBeforeLift}>
-        <Counter />
+        <ContactsScreen />
       </PersistGate>
     </Provider>
   );

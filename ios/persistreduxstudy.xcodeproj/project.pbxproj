@@ -194,7 +194,6 @@
 				214B7BC1013AAC1EEA8DAB3D /* Pods-persistreduxstudyTests.debug.xcconfig */,
 				290B42FC85573A062E7BCFC3 /* Pods-persistreduxstudyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
